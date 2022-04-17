@@ -15,3 +15,5 @@ For this mod you can re-use the pancake stepper motor that comes with the KP3S. 
 
 # Firmware
 E-Step Value: 830
+
+![Afterburner mounted on KP3S](https://github.com/rfblock/KingroonKP3SMods/blob/main/Afterburner%20Mount/Images/KP3S_Afterburner.JPG?raw=true)
