@@ -1,0 +1,79 @@
+This is a list of files that we have modified in the core Marlin files for our distribution.
+
+This is for our reference to make sure to retain changes made to the core files when merging in the latest Marlin firmware baseline.
+
+This does not include machine configs or PlatformIO files.
+
+----------
+
+- **ini**
+	- `avr.ini`
+	- `stm32f1.ini`
+	- `stm32f1-maple.ini`
+	- `stm32f4.ini`
+- **Marlin**
+	- **src**
+		- **core**
+			- `boards.h`
+			- `language.h`
+		- **gcode**
+			- **calibrate**
+				- `M48.cpp`
+		- **inc**
+			- `Conditionals_LCD.h`
+			- `SanityCheck.h`
+			- `Warnings.cpp`
+		- **lcd**
+			- **e3v2**
+				- **common**
+					- `dwin_api.cpp`
+					- `dwin_set.cpp`
+				- **creality*
+					- `dwin.cpp`
+					- `dwin_lcd.cpp`
+				- **jyersui*
+					- `dwin.cpp`
+				- **marlinui**
+					- `dwin_lcd.cpp`
+					- `dwin_lcd.h`
+					- `ui_common.cpp`
+			- **language**
+				- `language_en.h`
+			- **menu**
+				- `menu_advanced.cpp`
+				- `menu_configuration.cpp`
+				- `menu_motion.cpp`			
+		- **pins**
+			- `pins.h`
+			- **lpc1769**
+				- `pins_MKS_SGEN_L_V2.h`
+			- **mega**
+				- `pins_WANHAO_ONEPLUS.h`
+			- **ramps**
+				- `pins_RAMPS.h`
+				- `pins_RAMPS_CREALITY.h`
+				- `pins_TRIGORILLA_14.h`
+			- **sanguino**
+				- `pins_ANET_10.h`
+				- `pins_MELZI_CREALITY.h`
+				- `pins_SANGUINOLOLU_11.h`
+			- **stm32f1**
+				- `pins_BTT_SKR_MINI_E3_common.h`
+				- `pins_CREALITY_V24S1.h`
+				- `pins_CREALITY_V24S1_301.h`
+				- `pins_CREALITY_V4.h`
+				- `pins_CREALITY_V4210.h`
+				- `pins_CREALITY_V422.h`
+				- `pins_CREALITY_V423.h`
+				- `pins_CREALITY_V427.h`
+				- `pins_CREALITY_V431.h`
+				- `pins_CREALITY_V452.h`
+				- `pins_CREALITY_V453.h`
+				- `pins_MKS_ROBIN_MINI.h`
+				- `pins_MKS_ROBIN_NANO_common.h`
+			- **stm32f4**
+				- `pins_TH3D_EZBOARD_V2.h`
+			- **stm32g0**
+				- `pins_BTT_SKR_MINI_E3_V3_0.h`
+	- `Configuration_adv.h`
+	- `Version.h`
