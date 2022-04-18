@@ -1,4 +1,4 @@
-# KingroonKP3SMods
+# Kingroon KP3S Mods
 
 Mods for Kingroon KP3S. The original printer started with a titan extruder. The board model on this machines is the STM32F407 so this firmware is untested with other boards.
 
